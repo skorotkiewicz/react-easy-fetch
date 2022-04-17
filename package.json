@@ -1,7 +1,7 @@
 {
   "name": "react-easy-fetch",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy React component wrapper for axios",
   "scripts": {
     "rollup": "rollup -c"
   },
