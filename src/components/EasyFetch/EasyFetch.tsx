@@ -8,13 +8,13 @@ import axios from "axios";
 
 export interface EasyFetchProps {
   url: string;
-  params: object;
-  method: string;
-  data: object;
-  options: object;
-  onSuccess: void | any;
-  onError: void | any;
-  children: void;
+  params?: object;
+  method?: string;
+  data?: object;
+  options?: object;
+  onSuccess?: void | any;
+  onError?: void | any;
+  children?: void;
 }
 
 const EasyFetch = ({
